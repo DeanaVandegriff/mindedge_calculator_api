@@ -1,0 +1,15 @@
+### calculations index
+GET http://localhost:3000/calculations.json 
+
+### calculations create
+POST http://localhost:3000/calculations.json 
+Content-Type: application/json
+
+{
+  "value1": "3",
+  "operator": "+",
+  "value2": "4",
+  "equals": "=",
+  "result": "7"
+
+}
